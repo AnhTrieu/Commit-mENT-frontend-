@@ -2,7 +2,6 @@ import React, {Component} from 'react'
 import {Grid, Table, Header, Image, Container} from 'semantic-ui-react'
 
 const Leader = ({ leader }) => {
-  console.log('dis!',leader);
   return (
     <Table.Row>
       <Table.Cell>
