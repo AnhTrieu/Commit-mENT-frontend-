@@ -5,14 +5,18 @@ import axios from 'axios'
 
 const baseURL = 'https://commit-m.herokuapp.com/'
 
-// ---- LIST OF COMPONENTS ----
 import LoginForm from './components/LoginForm'
 import Footer from './components/Footer'
 import Home from './components/Home'
 
 class App extends Component {
 
-  state = { isLoggedIn: false, profile: null, isOpen: false, leaders: null }
+  state = {
+    isLoggedIn: false,
+    profile: null,
+    isOpen: false,
+    leaders: null
+  }
 
   componentDidMount() {
     if (window.location.search)  this.handleTokenExchange(window.location.search)
