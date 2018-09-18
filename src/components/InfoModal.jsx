@@ -7,7 +7,7 @@ const InfoModal = () => (
       <Modal.Content>
         <Modal.Description>
           <p>Commit-m encourages commit message creativity, allows users to view what others are committing about, and "like" messages they enjoy.  Once logged in you can see what other Commit-m users are committing about! All users can view and like all other Commit-m user's messages.</p>
-          <p>For more information feel free to visit our <a  rel="noopener noreferrer" target='_blank' href='https://github.com/AnhTrieu/Commit-mENT-backend-'>repo</a> on GitHub!</p>
+          <p>Due to changes in technologies and their permissions (and no longer being regularly maintained) Commit-m is no longer functional.  Please visit our <a  rel="noopener noreferrer" target='_blank' href='https://github.com/just-hey/Commit-mENT-frontend-'>repo</a> on GitHub to learn more about Commit-m.</p>        
         </Modal.Description>
       </Modal.Content>
   </Modal>
