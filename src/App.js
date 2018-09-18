@@ -1,13 +1,12 @@
 import React, { Component } from 'react'
 import { Route, Link } from 'react-router-dom'
-import './App.css'
 import axios from 'axios'
-
-const baseURL = 'https://commit-m.herokuapp.com/'
-
 import LoginForm from './components/LoginForm'
 import Footer from './components/Footer'
 import Home from './components/Home'
+import './App.css'
+
+const baseURL = 'https://commit-m.herokuapp.com/'
 
 class App extends Component {
 
