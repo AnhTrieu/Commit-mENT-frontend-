@@ -3,8 +3,7 @@ import ReadMore from './ReadMore'
 import {Grid, Card, Image, Button, Divider} from 'semantic-ui-react'
 
 const CommitCard = ({id, name, message, date, avatar, voteOnCommit, likesCount, userid}) => {
-// const CommitCard = ({id, name, message, date, avatar}) => {
-  console.log(id)
+
     return (
       <div>
         <div className="ui card centered">
@@ -19,9 +18,8 @@ const CommitCard = ({id, name, message, date, avatar, voteOnCommit, likesCount, 
           <div className="extra content">
             <div className="ui right labeled button" role="button" tabIndex="0">
               <button onClick={(e) => voteOnCommit(e, id, userid)}  className="ui icon button" role="button">
-            {/* <i aria-hidden="true" className="heart icon"></i>Like</button> */}
-            <i aria-hidden="true" className="heart icon"></i>Like</button>
-              {/* <a className="ui left pointing basic label">2,048</a> */}
+                <i aria-hidden="true" className="heart icon"></i>Like
+              </button>
               <a className="ui left pointing basic label">{likesCount}</a>
             </div>
           </div>
